@@ -1,0 +1,11 @@
+<div class="container" *ngFor="let pergunta of perguntas" >
+  <h1>Pergunta do dia:</h1>
+  <h2>{{pergunta.pergunta1}}</h2>
+  <h3>{{pergunta.resposta1}}</h3>
+  <h3>{{pergunta.resposta2}}</h3>
+  <h3>{{pergunta.resposta3}}</h3>
+  <h3>{{pergunta.resposta4}}</h3>
+  <button (click)="onClick()" > Solução</button>
+
+</div>
+
